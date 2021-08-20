@@ -1,4 +1,32 @@
-node_modules
-.npmrc
-package-lock.json
-yarn.lock
+# Ignore everything
+*
+
+# Except .gitignore
+!.gitignore
+
+# Except PlantUML
+!*.plantuml
+
+# Except markdown
+!*.md
+
+# Except directories
+!src
+
+# Except json
+!*.json
+
+# Except conf
+!*.conf
+
+# Except yaml
+!*.yaml
+!*.yml
+
+# Except toml
+!*.toml
+
+# Except .js, .html, .css
+!*.js
+!*.html
+!*.css
